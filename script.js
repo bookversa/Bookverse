@@ -27,3 +27,10 @@ searchInput.addEventListener("keyup", () => {
     }
   });
 });
+const wishlistButtons = document.querySelectorAll(".wishlist");
+
+wishlistButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    alert("❤️ Added to Wishlist!");
+  });
+});
