@@ -45,3 +45,25 @@ if (loginForm) {
       "Welcome, " + email + "!";
   });
 }
+const registerForm = document.getElementById("registerForm");
+const logoutBtn = document.getElementById("logoutBtn");
+
+if (registerForm) {
+  registerForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+
+    localStorage.setItem("bookverseUser", name);
+
+    document.getElementById("registerMessage").textContent =
+      "Welcome " + name + "! Your account has been created.";
+  });
+}
+
+if (logoutBtn) {
+  logoutBtn.addEventListener("click", function() {
+    localStorage.removeItem("bookverseUser");
+    alert("You have been logged out.");
+  });
+}
