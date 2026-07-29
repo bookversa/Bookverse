@@ -95,7 +95,33 @@ nav a:hover{
     padding:20px;
     margin:15px;
 }
+nav{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    align-items:center;
+}
 
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:8px 12px;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#FFD700;
+    color:#111;
+}
+
+.hero{
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
 .book-card img{
     width:100%;
     border-radius:10px;
