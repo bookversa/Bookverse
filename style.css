@@ -196,3 +196,18 @@ nav a:hover{
     font-weight:bold;
     cursor:pointer;
   }
+.wishlist{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:6px;
+    background:#ff4d6d;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.wishlist:hover{
+    background:#ff1744;
+}
