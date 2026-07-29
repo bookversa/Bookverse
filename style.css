@@ -218,6 +218,35 @@ nav a:hover{
     padding:20px;
     border-radius:10px;
 }
+.register-section{
+    max-width:400px;
+    margin:40px auto;
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+}
+
+.register-section h2{
+    text-align:center;
+    color:#FFD700;
+}
+
+.register-section input,
+.register-section button{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:6px;
+    box-sizing:border-box;
+}
+
+.register-section button{
+    background:#FFD700;
+    color:#111;
+    font-weight:bold;
+    cursor:pointer;
+}
 
 .login-section h2{
     color:#FFD700;
