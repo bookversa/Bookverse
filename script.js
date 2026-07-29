@@ -34,3 +34,14 @@ wishlistButtons.forEach(button => {
     alert("❤️ Added to Wishlist!");
   });
 });
+const loginForm = document.getElementById("loginForm");
+
+if (loginForm) {
+  loginForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const email = document.getElementById("email").value;
+    document.getElementById("loginMessage").textContent =
+      "Welcome, " + email + "!";
+  });
+}
