@@ -247,6 +247,38 @@ nav a:hover{
     font-weight:bold;
     cursor:pointer;
 }
+.product-details{
+    max-width:500px;
+    margin:50px auto;
+    background:#222;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.product-details img{
+    width:220px;
+    border-radius:10px;
+}
+
+.product-details h2{
+    color:#FFD700;
+}
+
+.product-details h4{
+    color:#FFD700;
+    font-size:28px;
+}
+
+.product-details button{
+    padding:12px 20px;
+    margin:10px;
+    border:none;
+    border-radius:6px;
+    background:#FFD700;
+    color:#111;
+    cursor:pointer;
+}
 
 .login-section h2{
     color:#FFD700;
